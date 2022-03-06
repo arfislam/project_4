@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Shopping</title>
+    <style>
+        .main_body{
+            width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .nav_bar {
+            background-color: aqua;
+        }
+
+        .nav_bar ul {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .nav_bar ul li {
+            margin: 15px;
+            list-style: none;
+        }
+
+        .nav_bar ul li a {
+            text-decoration: none;
+        }
+
+        .banner {
+            border: 1px solid red;
+            background-image: url("style/images/banner.jfif");
+            background-size: 100%;
+            
+        }
+        .heading{
+            text-align: center;
+            padding: 100px;
+            color: green;
+        }
+        .main{
+            text-align: center;
+        }
+        .box{
+            width: 810px;
+            border: 1px solid red;
+           display: flex;
+            
+        }
+        .box .left{
+            height: 300px;
+            width: 200px;
+            border: 1px solid red;
+        }
+        .box .left img{
+            height: 220px;
+            width: 200px;
+        }
+        .name{
+            margin-bottom: 0px;
+            text-align: center;
+        }
+        .price{
+            margin: 0;
+            text-align: center;
+        }
+        .box .mid{
+            height: 300px;
+            width: 200px;
+            border: 1px solid red;
+        }
+        .box .mid img{
+            height: 220px;
+            width: 200px;
+        }
+        .box .mid1{
+            height: 300px;
+            width: 200px;
+            border: 1px solid red;
+        }
+        .box .mid1 img{
+            height: 220px;
+            width: 200px;
+        }
+        .box .right{
+            height: 300px;
+            width: 200px;
+            border: 1px solid red;
+        }
+        .box .right img{
+            height: 220px;
+            width: 200px;
+        }
+        /* .box .left,
+        .box .mid,
+        .box .mid1,
+        .box .right img{
+            height: 250px;
+            width: 200px;
+            display: flex;
+        } */
+        
+    </style>
+</head>
+
+<body class="main_body">
+    <header>
+        <nav class="nav_bar">
+            <ul>
+                <li>logo</li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Chart</a></li>
+
+            </ul>
+        </nav>
+        <div class="banner">
+            <h2 class="heading">
+                Handmade ceramics.
+            </h2>
+           
+        </div>
+    </header>
+    <section>
+        <div class="main">
+            <h1>
+                our best seller.
+            </h1>
+        </div>
+        <div class="box">
+            <div class="left">
+                <img src="./style/images/1.jfif" alt="">
+                <h3 class="name">
+                    Vase
+                </h3>
+                <h5 class="price">
+                    $100
+                </h5>
+            </div>
+            <div class="mid">
+                <img src="./style/images/2.jfif" alt="">
+                <h3 class="name">
+                    Flower top
+                </h3>
+                <h5 class="price">
+                    $200
+                </h5>
+            </div>
+            <div class="mid1">
+                <img src="./style/images/3.jfif" alt="">
+                <h3 class="name">
+                    Bowl of soup 
+                </h3>
+                <h5 class="price">
+                    $150
+                </h5>
+            </div>
+            <div class="right">
+               <img src="./style/images/images.jfif" alt="">
+               <h3 class="name">
+                Tree Vase
+            </h3>
+            <h5 class="price">
+                $300
+            </h5>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
