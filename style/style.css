@@ -4,9 +4,21 @@
     margin-right: auto;
     font-family: sans-serif;
 }
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.name_2{
+    /* border: 1px solid red; */
+    margin-bottom: 0px;
+}
+.nav{
+    margin-top: 0px;
+}
 
 .nav_bar {
-    background-color: aqua;
+    /* background-color: aqua; */
+    /* border: 1px solid red; */
 }
 
 .nav_bar ul {
@@ -218,13 +230,24 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.link{
+    /* border: 1px solid red; */
+    
+}
+.logo{
+    /* border: 1px solid red; */
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
 
-.footer ul{
+.link ul{
    display: flex;
    list-style: none;
    justify-content: flex-end;
 }
-.footer ul li{
+.link ul li{
     margin: 10px;
     margin-left: 20px;
     margin-right: 20px;
