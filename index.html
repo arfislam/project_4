@@ -7,11 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Shopping</title>
     <style>
-        .main_body{
+        .main_body {
             width: 1200px;
             margin-left: auto;
             margin-right: auto;
+            font-family: sans-serif;
         }
+
         .nav_bar {
             background-color: aqua;
         }
@@ -34,81 +36,101 @@
             /* border: 1px solid red; */
             background-image: url("style/images/banner.jfif");
             background-size: 100%;
-            
-        }
-        .heading{
             text-align: center;
             padding: 100px;
+        }
+
+        .banner h2 {
             color: green;
         }
-        .main{
+        .banner h5{
+            /* border: 1px solid red; */
+            width: 70px;
+            padding: 10px;
+            background-color: white;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .main {
             text-align: center;
         }
-        .box{
-             width: 900px; 
+
+        .box {
+            width: 900px;
             /* border: 1px solid red; */
             display: flex;
-               padding-left: 150px;
-            padding-right: 150px;   
+            padding-left: 150px;
+            padding-right: 150px;
             flex-wrap: wrap;
-             justify-content: space-between; 
-            
+            justify-content: space-between;
+
         }
-        .box .left{
+
+        .box .left {
             height: 300px;
             width: 200px;
             /* padding-right: 5px;
             padding-right: 5px; */
             /* border: 1px solid red; */
         }
-        .box .left img{
+
+        .box .left img {
             height: 220px;
             width: 200px;
         }
-        .name{
+
+        .name {
             margin-bottom: 0px;
             text-align: center;
         }
-        .price{
+
+        .price {
             margin: 0;
             text-align: center;
         }
-        .box .mid{
+
+        .box .mid {
             height: 300px;
             width: 200px;
             padding-right: 5px;
             padding-right: 5px;
             /* border: 1px solid red; */
         }
-        .box .mid img{
+
+        .box .mid img {
             height: 220px;
             width: 200px;
         }
-        .box .mid1{
+
+        .box .mid1 {
             height: 300px;
             width: 200px;
             padding-right: 5px;
             padding-right: 5px;
             /* border: 1px solid red; */
         }
-        .box .mid1 img{
+
+        .box .mid1 img {
             height: 220px;
             width: 200px;
         }
-        .box .right{
+
+        .box .right {
             height: 300px;
             width: 200px;
             padding-right: 5px;
             padding-right: 5px;
             /* border: 1px solid red; */
         }
-        .box .right img{
+
+        .box .right img {
             height: 220px;
             width: 200px;
         }
-      
-        .buy_batton{
-             border: 1px solid red;   
+
+        .buy_batton {
+            border: 1px solid red;
             text-align: center;
             height: 30px;
             width: 90px;
@@ -119,19 +141,22 @@
             margin-bottom: 30px;
             /* padding-bottom: 10px; */
         }
-        .batton_link{
+
+        .batton_link {
             text-decoration: none;
             font-family: sans-serif;
             font-weight: bold;
         }
-        .home{
+
+        .home {
             /* border: 1px solid red; */
             text-align: center;
-            background-image:url("./style/images/banner2.jfif") ;
-            padding: 100px;
+            background-image: url("./style/images/banner2.jfif");
+            padding: 60px;
             background-size: 100%;
         }
-        .home .shop_batton{
+
+        .home .shop_batton {
             /* border: 1px solid red; */
             width: 70px;
             margin-left: auto;
@@ -140,10 +165,61 @@
             padding: 10px;
             text-decoration: none;
         }
-        .home .shop_batton a{
+
+        .home .shop_batton a {
             text-decoration: none;
         }
-        
+
+        .sub_heading {
+            text-align: center;
+            color: green;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .box_2 {
+            /* border: 1px solid red; */
+            height: 300px;
+            width: 900px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: space-between;
+        }
+
+        .box_2 .left {
+            width: 250px;
+            /* border: 1px solid red; */
+            height: 300px;
+        }
+
+        .box_2 .left img {
+            height: 300px;
+            width: 290px;
+        }
+
+        .box_2 .mid {
+            width: 250px;
+            /* border: 1px solid red; */
+            height: 300px;
+        }
+
+        .box_2 .mid img {
+            height: 300px;
+            width: 290px;
+        }
+
+        .box_2 .right {
+            width: 250px;
+            /* border: 1px solid red; */
+            height: 300px;
+        }
+
+        .box_2 .right img {
+            height: 300px;
+            width: 290px;
+        }
     </style>
 </head>
 
@@ -160,10 +236,15 @@
             </ul>
         </nav>
         <div class="banner">
-            <h2 class="heading">
+            <h2>
                 Handmade ceramics.
             </h2>
-           
+            <h3>
+                Please collect your choice.
+            </h3>
+            <h5>
+                Shop now
+            </h5>
         </div>
     </header>
     <section>
@@ -194,20 +275,20 @@
             <div class="mid1">
                 <img src="./style/images/3.jfif" alt="">
                 <h3 class="name">
-                    Bowl of soup 
+                    Bowl of soup
                 </h3>
                 <h5 class="price">
                     $150
                 </h5>
             </div>
             <div class="right">
-               <img src="./style/images/images.jfif" alt="">
-               <h3 class="name">
-                Tree Vase
-            </h3>
-            <h5 class="price">
-                $300
-            </h5>
+                <img src="./style/images/images.jfif" alt="">
+                <h3 class="name">
+                    Tree Vase
+                </h3>
+                <h5 class="price">
+                    $300
+                </h5>
             </div>
         </div>
         <div class="buy_batton">
@@ -224,9 +305,27 @@
             <h5 class="shop_batton"><a href="#">Shop now</a></h5>
         </div>
     </section>
-    <footer>
+    <section>
+        <div>
+            <h3 class="sub_heading">
+                Flow us with facebook.
+            </h3>
+        </div>
+        <div class="box_2">
+            <div class="left">
+                <img src="./style/images/a.jfif" alt="">
+            </div>
+            <div class="mid">
+                <img src="./style/images/b.jfif" alt="">
+            </div>
+            <div class="right">
+                <img src="./style/images/d.jfif" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- <footer>
         copyrite by ict villege.
-    </footer>
+    </footer> -->
 </body>
 
 </html>
